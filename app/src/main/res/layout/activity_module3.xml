@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Module_3">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:id="@+id/moo">
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_marginStart="10sp"
+            android:id="@+id/bak3"
+            android:src="@drawable/nav_back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lavender"
+            android:text="Module 3"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mod3_recycler"
+        android:layout_below="@id/ban6"/>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ban6"
+        android:layout_width="match_parent"
+        android:layout_below="@id/moo"
+        android:layout_height="wrap_content"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2829905592411826/6724582997"/>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ban7"
+        android:layout_width="match_parent"
+        android:layout_below="@id/mod3_recycler"
+        android:layout_height="wrap_content"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2829905592411826/3666927394"/>
+
+
+</RelativeLayout>

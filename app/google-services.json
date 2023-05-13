@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "800016338564",
+    "project_id": "dip-automotive",
+    "storage_bucket": "dip-automotive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800016338564:android:ec55c7ab6c8049912a7cd1",
+        "android_client_info": {
+          "package_name": "com.example.dipautomotive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800016338564-7ulte43d6jp77mq5lptg3rq97ekuf3e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI72eozdIFz5MWa4bG5vPcZMj2yMIoPDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800016338564-7ulte43d6jp77mq5lptg3rq97ekuf3e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800016338564:android:54a26f913607b4342a7cd1",
+        "android_client_info": {
+          "package_name": "com.nerdware.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800016338564-7ulte43d6jp77mq5lptg3rq97ekuf3e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI72eozdIFz5MWa4bG5vPcZMj2yMIoPDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800016338564-7ulte43d6jp77mq5lptg3rq97ekuf3e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
